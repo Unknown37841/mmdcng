@@ -1,5 +1,5 @@
 {
-  "top_n_per_sub": 3,
+  "top_n_per_sub": 6,
   "timeout_seconds": 5,
   "retries": 2,
   "max_workers": 20,
