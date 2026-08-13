@@ -1,9 +1,27 @@
 name: Update Subscription
 
+# ─────────────────────────────────────────────────────────────
+# برای تغییر بازه‌ی زمانی چک شدن ساب‌ها، فقط عدد/الگوی cron زیر رو عوض کن.
+# چند نمونه‌ی آماده (وقت‌ها UTC هستن، نه وقت محلی):
+#   هر ۱۵ دقیقه   -> */15 * * * *
+#   هر ۳۰ دقیقه   -> */30 * * * *   (پیش‌فرض الان)
+#   هر ۱ ساعت     -> 0 * * * *
+#   هر ۳ ساعت     -> 0 */3 * * *
+#   هر ۶ ساعت     -> 0 */6 * * *
+#   یک‌بار در روز  -> 0 3 * * *
+# توجه: حداقل بازه‌ی مجاز گیت‌هاب ۵ دقیقه‌ست، ولی هرچی بازه کوتاه‌تر باشه
+# احتمال تاخیر در اجرا (به‌خاطر شلوغی سرورهای گیت‌هاب) بیشتر می‌شه؛
+# زیر ۱۵ دقیقه معمولاً توصیه نمی‌شه.
+# ─────────────────────────────────────────────────────────────
 on:
   schedule:
-    - cron: "*/30 * * * *"  # هر ۳۰ دقیقه یک‌بار (وقت UTC)
-  workflow_dispatch: {}      # اجرای دستی از تب Actions
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      top_n_override:
+        description: "override top_n_per_sub فقط برای همین اجرای دستی (خالی = استفاده از config.json)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -19,12 +37,17 @@ jobs:
           python-version: "3.11"
 
       - name: Run checker
+        env:
+          TOP_N_OVERRIDE: ${{ github.event.inputs.top_n_override }}
         run: python check_and_build.py
 
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output_sub.txt report.txt
+          git add output_sub.txt report.txt last_checked.txt
+          # last_checked.txt هر بار عوض میشه، پس همیشه یک commit واقعی ثبت
+          # میشه و ریپو هیچ‌وقت "بدون فعالیت" حساب نمیشه؛ همین جلوی غیرفعال
+          # شدن خودکار ورک‌فلو بعد از ۶۰ روز بی‌فعالیتی رو می‌گیره.
           git diff --staged --quiet || git commit -m "Update subscription $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push

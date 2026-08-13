@@ -1,0 +1,7 @@
+{
+  "top_n_per_sub": 3,
+  "timeout_seconds": 5,
+  "retries": 2,
+  "max_workers": 20,
+  "tag_configs_with_source": false
+}
