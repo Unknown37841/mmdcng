@@ -1,0 +1,4 @@
+# یک لینک ساب در هر خط - خط‌هایی که با # شروع بشن نادیده گرفته میشن
+https://example.com/sub1
+https://example.com/sub2
+https://example.com/sub3
