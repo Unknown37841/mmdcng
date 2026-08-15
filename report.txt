@@ -1,16 +1,16 @@
-SUB#1 OK: 87/99 reachable, kept 6 (top_n=6): https://64ytjr6iqfkx6iv7hq6mxpjd--xnlz0k.nin9nf.workers.dev/sub?token=56da93fe2bea41d8243b2a5956fe7634
-SUB#2 OK: 81/99 reachable, kept 6 (top_n=6): https://35czbrv-xfyl3tsrrkdtfnj6zydgzxe5.tethan.workers.dev/sub?token=6a6e9485ee82ac61170b002115454b36
-SUB#3 OK: 87/99 reachable, kept 6 (top_n=6): https://vljee0cmicwvj5pm6gcjx28sqdrrkjds.t1-482.workers.dev/sub?token=13ab55c09fcd2a35804e3cd916d14002
-SUB#4 OK: 81/99 reachable, kept 6 (top_n=6): https://zdte9itc3uihpo04u98c8niuef0khwmk.a3-afb.workers.dev/sub?token=273988c0ee3b7843cfc27cdf91c2d809
-SUB#5 OK: 81/99 reachable, kept 6 (top_n=6): https://mzkrn97ewn2kwauiz7wujd9zxnsmlob3.3ts.workers.dev/sub?token=e73335a6cb99a2c5d4e4daf9154e5961
+SUB#1 OK: 82/99 reachable, kept 6 (top_n=6): https://64ytjr6iqfkx6iv7hq6mxpjd--xnlz0k.nin9nf.workers.dev/sub?token=56da93fe2bea41d8243b2a5956fe7634
+SUB#2 OK: 86/99 reachable, kept 6 (top_n=6): https://35czbrv-xfyl3tsrrkdtfnj6zydgzxe5.tethan.workers.dev/sub?token=6a6e9485ee82ac61170b002115454b36
+SUB#3 OK: 88/99 reachable, kept 6 (top_n=6): https://vljee0cmicwvj5pm6gcjx28sqdrrkjds.t1-482.workers.dev/sub?token=13ab55c09fcd2a35804e3cd916d14002
+SUB#4 OK: 82/99 reachable, kept 6 (top_n=6): https://zdte9itc3uihpo04u98c8niuef0khwmk.a3-afb.workers.dev/sub?token=273988c0ee3b7843cfc27cdf91c2d809
+SUB#5 OK: 78/99 reachable, kept 6 (top_n=6): https://mzkrn97ewn2kwauiz7wujd9zxnsmlob3.3ts.workers.dev/sub?token=e73335a6cb99a2c5d4e4daf9154e5961
 SUB#6 DROPPED (fetch failed or no configs found): https://jvtxsdw4sr3d8ha3nz-htiokyr44319m.34tg.workers.dev/sub?token=abc00fb51693a0f3c789b9b690816fd6
-SUB#7 OK: 80/99 reachable, kept 6 (top_n=6): https://4dxr2xhp8tzu0msp7g4p4bqz230yc7cm.34t.workers.dev/sub?token=575f0819e0fe9d4deef9440cbf164538
+SUB#7 OK: 69/99 reachable, kept 6 (top_n=6): https://4dxr2xhp8tzu0msp7g4p4bqz230yc7cm.34t.workers.dev/sub?token=575f0819e0fe9d4deef9440cbf164538
 SUB#8 DROPPED (fetch failed or no configs found): https://hg4jasg1p1z3ncr2w-o379ov4qe08dca.4gsa.workers.dev/sub?token=cc4ebb5daa9066525701d185dc92c5b5
-SUB#9 OK: 79/99 reachable, kept 6 (top_n=6): https://ckfog2oqr2u9ae09zaza27jk-wyd93wh.4fw.workers.dev/sub?token=a7a5cbbf52b0fc533167567a7ffd56dd
-SUB#10 OK: 79/99 reachable, kept 6 (top_n=6): https://q5cpgnxdeml644wag0qanh7-5axprmq3.3wt.workers.dev/sub?token=743931c316e7c376c6de9977da4558e7
+SUB#9 OK: 84/99 reachable, kept 6 (top_n=6): https://ckfog2oqr2u9ae09zaza27jk-wyd93wh.4fw.workers.dev/sub?token=a7a5cbbf52b0fc533167567a7ffd56dd
+SUB#10 OK: 84/99 reachable, kept 6 (top_n=6): https://q5cpgnxdeml644wag0qanh7-5axprmq3.3wt.workers.dev/sub?token=743931c316e7c376c6de9977da4558e7
 SUB#11 DROPPED (fetch failed or no configs found): https://62qvgboae50pi1wbtto7aqwvi77e20es.234rw.workers.dev/sub?token=1e3b4d3769e3173b41fdca13310629b9
 SUB#12 OK: 79/99 reachable, kept 6 (top_n=6): https://gu0v5cslxk-i3thmjmgurp1y9xn54buv.6hd.workers.dev/sub?token=5568a6579613db2344613b39b51969d6
-SUB#13 OK: 87/99 reachable, kept 6 (top_n=6): https://25kp85eevqtcy-b5najcw698ac-wb-cw.htf-842.workers.dev/sub?token=501989592db824549a66249350774880
-SUB#14 OK: 86/96 reachable, kept 6 (top_n=6): https://j5qrr3d1b17xmczrfczqpd66hrsichfl.ey5sreh.workers.dev/sub?token=5b3d3a9464585d612492dcecbf4e3f4a
-SUB#15 OK: 89/99 reachable, kept 6 (top_n=6): https://1ylhkyrn60hgn3wfjonarm-6bnwondaa.ti7wrw.workers.dev/sub?token=f3ac40504df6657fb05ea80fc40704e3
-SUB#16 OK: 81/99 reachable, kept 6 (top_n=6): https://i7a6w1dhfbdmep8602i5bdr1-3962dr7.574n4s.workers.dev/sub?token=eccb1c7753857c9f66d1fab16ac60107
+SUB#13 OK: 82/99 reachable, kept 6 (top_n=6): https://25kp85eevqtcy-b5najcw698ac-wb-cw.htf-842.workers.dev/sub?token=501989592db824549a66249350774880
+SUB#14 OK: 73/96 reachable, kept 6 (top_n=6): https://j5qrr3d1b17xmczrfczqpd66hrsichfl.ey5sreh.workers.dev/sub?token=5b3d3a9464585d612492dcecbf4e3f4a
+SUB#15 OK: 85/99 reachable, kept 6 (top_n=6): https://1ylhkyrn60hgn3wfjonarm-6bnwondaa.ti7wrw.workers.dev/sub?token=f3ac40504df6657fb05ea80fc40704e3
+SUB#16 OK: 84/99 reachable, kept 6 (top_n=6): https://i7a6w1dhfbdmep8602i5bdr1-3962dr7.574n4s.workers.dev/sub?token=eccb1c7753857c9f66d1fab16ac60107
