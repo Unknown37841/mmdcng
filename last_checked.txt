@@ -1,3 +1,3 @@
-Last checked: 2026-08-21 03:53:50 UTC
-Alive subs: 9/11
-Total selected configs: 54
+Last checked: 2026-08-22 03:45:38 UTC
+Alive subs: 8/11
+Total selected configs: 48
