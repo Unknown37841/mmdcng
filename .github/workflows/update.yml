@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output_sub.txt report.txt last_checked.txt
+          git add output_sub.txt report.txt last_checked.txt iran_cache.json
           # last_checked.txt هر بار عوض میشه، پس همیشه یک commit واقعی ثبت
           # میشه و ریپو هیچ‌وقت "بدون فعالیت" حساب نمیشه؛ همین جلوی غیرفعال
           # شدن خودکار ورک‌فلو بعد از ۶۰ روز بی‌فعالیتی رو می‌گیره.

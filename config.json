@@ -3,5 +3,10 @@
   "timeout_seconds": 5,
   "retries": 2,
   "max_workers": 20,
-  "tag_configs_with_source": false
+  "tag_configs_with_source": false,
+  "iran_filter_enabled": true,
+  "iran_min_ok_nodes": 5,
+  "iran_min_ok_pings": 3,
+  "iran_cache_hours": 24,
+  "iran_max_hosts_per_run": 150
 }
