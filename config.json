@@ -8,5 +8,7 @@
   "iran_min_ok_nodes": 5,
   "iran_min_ok_pings": 3,
   "iran_cache_hours": 24,
-  "iran_max_hosts_per_run": 150
+  "iran_candidates_per_sub": 20,
+  "iran_test_rounds": 3,
+  "iran_round_gap_seconds": 120
 }

@@ -294,11 +294,43 @@ def _run_live(targets, min_ok_nodes, min_ok_pings, log):
 
 # ─────────────────────────── public entry ───────────────────────────
 
+def _aggregate(round_verdicts):
+    """
+    ترکیب نتایج چند دور تست یک هاست به یک حکم نهایی + پرچم «پایداری».
+
+    رفتار فیلترینگ ایران نوسانیه (همون IP یک بار رد میشه یک بار نه)، پس:
+      - اکثریت دورها بلاک            -> "blocked" (حذف از خروجی)
+      - حتی یک دور بلاک ولی نه اکثریت -> "flaky"  (ناپایدار؛ نگه داشته میشه ولی ته لیست می‌ره)
+      - هیچ بلاکی، حداقل یک پاس      -> "pass"
+      - چیزی قابل قضاوت نیست         -> "unknown" (fail-open)
+
+    solid یعنی «همه‌ی دورهای انجام‌شده پاس شدن» — مطمئن‌ترین کانفیگ‌ها.
+    خروجی: (verdict, solid, avg_ms)
+    """
+    done = [v for v in round_verdicts if v in ("pass", "blocked")]
+    if not done:
+        return "unknown", False, None
+    b = done.count("blocked")
+    p = done.count("pass")
+    if b * 2 > len(done):
+        return "blocked", False, None
+    if b >= 1:
+        return "flaky", False, None
+    # همه‌ی دورهای قطعی پاس بودن؛ فقط اگه هیچ دور unknown هم نداشتیم solid حساب می‌کنیم
+    solid = (len(done) == len([v for v in round_verdicts if v != "skipped"]))
+    return "pass", solid, None
+
+
 def check_addresses(addresses, min_ok_nodes=5, min_ok_pings=3,
-                    cache_hours=24.0, log=None):
+                    cache_hours=24.0, log=None,
+                    rounds=1, round_gap_seconds=90):
     """
     addresses: لیست hostname/IP (بدون پورت).
-    خروجی: {addr: {"verdict": "pass|blocked|unknown", "iran_avg_ms": float|None, ...}}
+    rounds>1  : هر هاست چند بار (با فاصله‌ی round_gap_seconds ثانیه) از ایران
+                تست میشه و نتایج با رأی‌گیری ترکیب میشن — چون فیلترینگ ایران
+                نوسانیه، تک‌تست ممکنه جواب اشتباه بده.
+    خروجی: {addr: {"verdict": "pass|flaky|blocked|unknown",
+                   "solid": bool, "iran_avg_ms": float|None, ...}}
     """
     log = log or (lambda s: None)
     now = time.time()
@@ -310,6 +342,7 @@ def check_addresses(addresses, min_ok_nodes=5, min_ok_pings=3,
         if ent and (now - ent.get("ts", 0)) <= float(cache_hours) * 3600.0:
             results[a] = {
                 "verdict": ent.get("verdict", "unknown"),
+                "solid": ent.get("solid", ent.get("verdict") == "pass"),
                 "iran_avg_ms": ent.get("iran_avg_ms"),
                 "cached": True,
             }
@@ -322,24 +355,62 @@ def check_addresses(addresses, min_ok_nodes=5, min_ok_pings=3,
 
     if todo:
         try:
-            live = _run_live(todo, min_ok_nodes, min_ok_pings, log)
+            votes = {a: [] for a in todo}
+            ms_sum = {a: [] for a in todo}
+            for rnd in range(1, int(max(1, rounds)) + 1):
+                if rnd > 1:
+                    log(f"  --- waiting {round_gap_seconds}s before re-test round "
+                        f"{rnd}/{rounds} (filtering is time-dependent) ---")
+                    time.sleep(int(round_gap_seconds))
+                    # کش رو دوباره بخون؛ شاید اجرای دیگه‌ای وسط کار آپدیتش کرده
+                    cache = _load_cache()
+                log(f"  Iran test round {rnd}/{max(1, rounds)}...")
+                try:
+                    live = _run_live(todo, min_ok_nodes, min_ok_pings, log)
+                except Exception as e:
+                    log(f"  WARNING: live Iran check failed ({e}) -> "
+                        f"{len(todo)} host(s) kept as unknown")
+                    live = {}
+                for a in todo:
+                    r = live.get(a)
+                    v = (r or {}).get("verdict", "unknown")
+                    votes[a].append(v)
+                    if isinstance((r or {}).get("iran_avg_ms"), (int, float)):
+                        ms_sum[a].append(r["iran_avg_ms"])
+            for a in todo:
+                verdict, solid, _none = _aggregate(votes[a])
+                avg = (sum(ms_sum[a]) / len(ms_sum[a])) if ms_sum[a] else None
+                results[a] = {"verdict": verdict, "solid": solid, "iran_avg_ms": avg}
+            for a in todo:
+                cache[a] = {
+                    "ts": now, "verdict": results[a]["verdict"],
+                    "solid": results[a]["solid"], "iran_avg_ms": results[a]["iran_avg_ms"],
+                }
+            _save_cache(cache)
         except Exception as e:
-            log(f"  WARNING: live Iran check failed ({e}) -> {len(todo)} host(s) kept as unknown")
-            live = {a: {"verdict": "unknown", "iran_avg_ms": None,
-                        "ir_good": 0, "ir_responded": 0, "world_ok": 0, "needed": 0}
-                    for a in todo}
-        results.update(live)
-        for a, r in live.items():
-            cache[a] = {"ts": now, "verdict": r["verdict"], "iran_avg_ms": r.get("iran_avg_ms")}
-        _save_cache(cache)
+            log(f"  WARNING: Iran check crashed ({e}) -> {len(todo)} host(s) kept as unknown")
+            for a in todo:
+                if a not in results:
+                    results[a] = {"verdict": "unknown", "solid": False, "iran_avg_ms": None}
 
     return results
 
 
 if __name__ == "__main__":
-    hosts = sys.argv[1:] or ["172.67.70.142", "104.16.157.77"]
-    res = check_addresses(hosts, log=print)
+    import argparse
+    ap = argparse.ArgumentParser(description="Test host reachability from inside Iran")
+    ap.add_argument("hosts", nargs="*",
+                    default=["172.67.70.142", "104.16.157.77"])
+    ap.add_argument("--rounds", type=int, default=1,
+                    help="how many test rounds per host (default 1)")
+    ap.add_argument("--gap", type=int, default=30,
+                    help="seconds between rounds (default 30)")
+    args = ap.parse_args()
+
+    res = check_addresses(args.hosts, log=print,
+                          rounds=args.rounds, round_gap_seconds=args.gap)
     print("\nSummary:")
-    for h in hosts:
+    for h in args.hosts:
         r = res.get(h, {})
-        print(f"  {h} -> {r.get('verdict')} (iran_avg_ms={r.get('iran_avg_ms')})")
+        print(f"  {h} -> {r.get('verdict')} (solid={r.get('solid')}, "
+              f"iran_avg_ms={r.get('iran_avg_ms')})")

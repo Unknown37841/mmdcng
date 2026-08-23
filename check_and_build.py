@@ -55,6 +55,11 @@ DEFAULT_CONFIG = {
     "iran_min_ok_pings": 3,        # روی هر نود حداقل چند تا از ۴ پینگ باید OK باشه
     "iran_cache_hours": 24,        # نتیجه‌ی هر IP این چند ساعت کش میشه (روزی یک بار تست)
     "iran_candidates_per_sub": 20, # فقط همین تعداد از سریع‌ترین‌های هر ساب تست ایران می‌گیرن
+    # فیلترینگ ایران نوسانیه (یک IP یک بار رد میشه یک بار نه). با rounds>1 هر
+    # IP چند بار با فاصله تست میشه و رأی‌گیری میشه: اکثریت بلاک = حذف،
+    # حتی یک بلاک ولی نه اکثریت = flaky (ته لیست)، همه پاس = solid (اول لیست).
+    "iran_test_rounds": 3,         # چند دور تست برای هر IP (۱ = تک‌تست مثل قبل)
+    "iran_round_gap_seconds": 120, # فاصله بین دورها (ثانیه)
 }
 
 
@@ -310,12 +315,15 @@ def main():
                 if (
                     isinstance(ent, dict)
                     and (now - ent.get("ts", 0)) <= ch * 3600.0
-                    and ent.get("verdict") in ("pass", "blocked")
+                    and ent.get("verdict") in ("pass", "blocked", "flaky")
                 ):
                     known[a] = ent["verdict"]
                 else:
                     out.append(a)
             return out, known
+
+        rounds = int(cfg.get("iran_test_rounds", 3) or 1)
+        gap = int(cfg.get("iran_round_gap_seconds", 120))
 
         for round_no in range(1, 4):   # حداکثر ۳ دور؛ دور آخر همه‌ی باقیمانده‌ها
             # انتخاب کاندیدای این دور برای ساب‌های نیازمند
@@ -344,9 +352,13 @@ def main():
                         min_ok_pings=int(cfg.get("iran_min_ok_pings", 3)),
                         cache_hours=float(cfg.get("iran_cache_hours", 24)),
                         log=print,
+                        rounds=rounds,
+                        round_gap_seconds=gap,
                     )
                     iran_stats.update({
-                        a: {"verdict": r.get("verdict"), "iran_avg_ms": r.get("iran_avg_ms")}
+                        a: {"verdict": r.get("verdict"),
+                            "solid": r.get("solid", False),
+                            "iran_avg_ms": r.get("iran_avg_ms")}
                         for a, r in verdicts.items()
                     })
                     for a, r in verdicts.items():
@@ -396,8 +408,17 @@ def main():
 
         # اول top_n عضوِ غیرِفیلترشده از ایران رو نگه دار؛ اگر کانفیگ زنده‌ای
         # IPش برای ایران بلاک بود، جاش به سریع‌ترین عضو سالم بعدی میرسه.
-        alive.sort(key=lambda x: x[0])
-        kept, skipped_blocked = [], 0
+        # داخل هر گروه، solidها (همه‌ی دورهای تست پاس) جلوتر از بقیه می‌رن —
+        # چون فیلترینگ ایران نوسانیه و این‌ها مطمئن‌ترین گزینه‌ان.
+        def _rank(item):
+            latency, cfg_uri = item
+            addr = alive_addr_by_sub[idx].get(cfg_uri)
+            st = iran_stats.get(addr) or {}
+            # (0=سریع‌ترین/پایدارترین اول): غیر-solid بعد از solid
+            return (0 if st.get("solid") else 1, 0 if addr not in iran_blocked else 2, latency)
+
+        alive.sort(key=_rank)
+        kept, skipped_blocked, flaky_kept = [], 0, 0
         for latency, cfg_uri in alive:
             if len(kept) >= top_n:
                 break
@@ -405,6 +426,8 @@ def main():
             if addr is not None and addr in iran_blocked:
                 skipped_blocked += 1
                 continue
+            if (iran_stats.get(addr) or {}).get("verdict") == "flaky":
+                flaky_kept += 1
             kept.append((latency, cfg_uri))
 
         report_lines.append(
@@ -412,6 +435,7 @@ def main():
             + (
                 f", {skipped_blocked} Iran-blocked skipped" if skipped_blocked else ""
             )
+            + (f", {flaky_kept} flaky(kept at end)" if flaky_kept else "")
             + f", kept {len(kept)} (top_n={top_n}): {url}"
         )
 
@@ -424,13 +448,22 @@ def main():
 
     # خلاصه‌ی وضعیت ایران برای هر IP — برای شفافیت در گزارش
     if iran_stats:
+        from collections import Counter
+        cnt = Counter(s.get("verdict") for s in iran_stats.values())
         report_lines.append("")
-        report_lines.append("Iran reachability (check-host.net):")
-        for addr in sorted(iran_stats):
+        report_lines.append(
+            "Iran reachability (check-host.net): "
+            + ", ".join(f"{k}={v}" for k, v in sorted(cnt.items()))
+        )
+        # solidها اول، بعد flaky، بعد بقیه — برای خوانایی
+        order = {"pass": 0, "flaky": 1, "unknown": 2, "blocked": 3}
+        for addr in sorted(iran_stats,
+                           key=lambda a: (order.get(iran_stats[a].get("verdict"), 9), a)):
             s = iran_stats[addr]
             ms = s.get("iran_avg_ms")
             report_lines.append(
                 f"  {addr}: {s.get('verdict')}"
+                + (" [solid]" if s.get("solid") else "")
                 + (f" (~{ms:.0f}ms avg from Iran)" if ms else "")
             )
 
