@@ -1,605 +1,513 @@
-SUB#1 OK: 99/99 reachable, kept 5 (top_n=5): https://64ytjr6iqfkx6iv7hq6mxpjd--xnlz0k.nin9nf.workers.dev/sub?token=56da93fe2bea41d8243b2a5956fe7634
-SUB#2 OK: 99/99 reachable, kept 5 (top_n=5): https://35czbrv-xfyl3tsrrkdtfnj6zydgzxe5.tethan.workers.dev/sub?token=6a6e9485ee82ac61170b002115454b36
-SUB#3 OK: 99/99 reachable, kept 5 (top_n=5): https://4dxr2xhp8tzu0msp7g4p4bqz230yc7cm.34t.workers.dev/sub?token=575f0819e0fe9d4deef9440cbf164538
-SUB#4 OK: 99/99 reachable, kept 5 (top_n=5): https://ckfog2oqr2u9ae09zaza27jk-wyd93wh.4fw.workers.dev/sub?token=a7a5cbbf52b0fc533167567a7ffd56dd
-SUB#5 OK: 99/99 reachable, kept 5 (top_n=5): https://q5cpgnxdeml644wag0qanh7-5axprmq3.3wt.workers.dev/sub?token=743931c316e7c376c6de9977da4558e7
-SUB#6 OK: 99/99 reachable, kept 5 (top_n=5): https://gu0v5cslxk-i3thmjmgurp1y9xn54buv.6hd.workers.dev/sub?token=5568a6579613db2344613b39b51969d6
-SUB#7 OK: 99/99 reachable, kept 5 (top_n=5): https://25kp85eevqtcy-b5najcw698ac-wb-cw.htf-842.workers.dev/sub?token=501989592db824549a66249350774880
-SUB#8 OK: 99/99 reachable, kept 5 (top_n=5): https://1ylhkyrn60hgn3wfjonarm-6bnwondaa.ti7wrw.workers.dev/sub?token=f3ac40504df6657fb05ea80fc40704e3
-SUB#9 OK: 99/99 reachable, kept 5 (top_n=5): https://lbmpn9lrq13jxu2xnqdt0ygaeznmbp0f.tethan.workers.dev/sub?token=9972df82827a6f93923fbc0bb09f8726
-SUB#10 OK: 99/99 reachable, kept 5 (top_n=5): https://cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev/sub?token=860ca388e2deec1ac98301ff0a4311e6
-SUB#11 OK: 99/99 reachable, kept 5 (top_n=5): https://j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev/sub?token=a739ad9baeaf745fb150460d3d0ae437
-SUB#12 OK: 99/99 reachable, kept 5 (top_n=5): https://ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev/sub?token=8d0df1ebf7eac865ac73ec6625517caf
-SUB#13 OK: 99/99 reachable, kept 5 (top_n=5): https://f2vgbo9r0alvijz562r7q7squz57xutf.pages.dev/sub?token=1198218197ee64985522675daf3735e9
-SUB#14 OK: 99/99 reachable, kept 5 (top_n=5): https://sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev/sub?token=af4dbac83877ac9ac529abe8e22b0bff
-SUB#15 OK: 99/99 reachable, kept 5 (top_n=5): https://9iks7usocdvn40culhif8fk7v7fgl-cg.3ts.workers.dev/sub?token=3ce863c7ad66fc547d97b4095b2bb060
-SUB#16 OK: 99/99 reachable, kept 5 (top_n=5): https://9wz2kxa4jttc4coawn5q6bh8w8prdfy2.4fw.workers.dev/sub?token=cdff20437ba7e7962720c22e576c5328
-SUB#17 OK: 99/99 reachable, kept 5 (top_n=5): https://5dhpdlseob53aeyys9dp36pgljrya5bi.3wt.workers.dev/sub?token=28ed4226aa75c9020e756ae823d0fe1c
-SUB#18 OK: 99/99 reachable, kept 5 (top_n=5): https://rsz4ce0d-i2kboob0ay2jbcen4kmm3qn.htf-842.workers.dev/sub?token=9a6175d70848e54bf3e01b297ecba21b
-SUB#19 OK: 99/99 reachable, kept 5 (top_n=5): https://n3k625vv1mav76lly56oo69z50krghy4.6hd.workers.dev/sub?token=e20dabeaf2eec808eaa7df5e7a7001c7
-SUB#20 OK: 99/99 reachable, kept 5 (top_n=5): https://hlfmd5qo7ujqg-b95brdgsjqnvskcy72.ti7wrw.workers.dev/sub?token=7fdcad22cbca5735cacb2a3bcf9db2bc
-SUB#21 OK: 99/99 reachable, kept 5 (top_n=5): https://vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev/sub?token=c1d3ac7b0c64d23aa3e0d1e26f83bc00
-SUB#22 OK: 99/99 reachable, kept 5 (top_n=5): https://mohammad38526.pages.dev/sub?token=6e81357c6086665250585fd54f3dfcff
-SUB#23 OK: 99/99 reachable, kept 5 (top_n=5): https://hdradfjhtgfdjsrt.pages.dev/sub?token=c924c9ffc95cdd965c3b522052e0095d
-SUB#24 OK: 85/99 reachable, kept 5 (top_n=5): https://ahmad99hoseini.pages.dev/sub?token=4d965d2b5f02ed28e4838c1c7488017b
-SUB#25 OK: 87/99 reachable, kept 5 (top_n=5): https://alireza48596.pages.dev/sub?token=c32a4f77171575b6d28499b21e13f3c8
-SUB#26 OK: 99/99 reachable, kept 5 (top_n=5): https://alphefedo7865.pages.dev/sub?token=135a5afdd6369eae37393e34aaa0a4ea
-SUB#27 OK: 99/99 reachable, kept 5 (top_n=5): https://mohammadhoseini4532.pages.dev/sub?token=f947737fcd8cea37c1e4f2ade4eead73
-SUB#28 OK: 99/99 reachable, kept 5 (top_n=5): https://pilot4f8f.pages.dev/sub?token=806601af7ac43d3f2dfa9386ce083cb0
-SUB#29 OK: 99/99 reachable, kept 5 (top_n=5): https://rezanoori4295.pages.dev/sub?token=b726fb6d32508b0b26d3956bc6164f4f
+SUB#1 OK: 78/99 reachable, kept 5 (top_n=5): https://64ytjr6iqfkx6iv7hq6mxpjd--xnlz0k.nin9nf.workers.dev/sub?token=56da93fe2bea41d8243b2a5956fe7634
+SUB#2 OK: 81/99 reachable, kept 5 (top_n=5): https://35czbrv-xfyl3tsrrkdtfnj6zydgzxe5.tethan.workers.dev/sub?token=6a6e9485ee82ac61170b002115454b36
+SUB#3 OK: 82/99 reachable, kept 5 (top_n=5): https://4dxr2xhp8tzu0msp7g4p4bqz230yc7cm.34t.workers.dev/sub?token=575f0819e0fe9d4deef9440cbf164538
+SUB#4 DROPPED (fetch failed or no configs found): https://ckfog2oqr2u9ae09zaza27jk-wyd93wh.4fw.workers.dev/sub?token=a7a5cbbf52b0fc533167567a7ffd56dd
+SUB#5 DROPPED (fetch failed or no configs found): https://q5cpgnxdeml644wag0qanh7-5axprmq3.3wt.workers.dev/sub?token=743931c316e7c376c6de9977da4558e7
+SUB#6 DROPPED (fetch failed or no configs found): https://gu0v5cslxk-i3thmjmgurp1y9xn54buv.6hd.workers.dev/sub?token=5568a6579613db2344613b39b51969d6
+SUB#7 OK: 81/99 reachable, kept 5 (top_n=5): https://25kp85eevqtcy-b5najcw698ac-wb-cw.htf-842.workers.dev/sub?token=501989592db824549a66249350774880
+SUB#8 OK: 76/99 reachable, kept 5 (top_n=5): https://1ylhkyrn60hgn3wfjonarm-6bnwondaa.ti7wrw.workers.dev/sub?token=f3ac40504df6657fb05ea80fc40704e3
+SUB#9 DROPPED (fetch failed or no configs found): https://lbmpn9lrq13jxu2xnqdt0ygaeznmbp0f.tethan.workers.dev/sub?token=9972df82827a6f93923fbc0bb09f8726
+SUB#10 OK: 83/99 reachable, kept 5 (top_n=5): https://cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev/sub?token=860ca388e2deec1ac98301ff0a4311e6
+SUB#11 OK: 84/99 reachable, kept 5 (top_n=5): https://j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev/sub?token=a739ad9baeaf745fb150460d3d0ae437
+SUB#12 OK: 80/99 reachable, kept 5 (top_n=5): https://ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev/sub?token=8d0df1ebf7eac865ac73ec6625517caf
+SUB#13 OK: 85/99 reachable, kept 5 (top_n=5): https://f2vgbo9r0alvijz562r7q7squz57xutf.pages.dev/sub?token=1198218197ee64985522675daf3735e9
+SUB#14 OK: 79/99 reachable, kept 5 (top_n=5): https://sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev/sub?token=af4dbac83877ac9ac529abe8e22b0bff
+SUB#15 OK: 85/99 reachable, kept 5 (top_n=5): https://9iks7usocdvn40culhif8fk7v7fgl-cg.3ts.workers.dev/sub?token=3ce863c7ad66fc547d97b4095b2bb060
+SUB#16 OK: 83/99 reachable, kept 5 (top_n=5): https://9wz2kxa4jttc4coawn5q6bh8w8prdfy2.4fw.workers.dev/sub?token=cdff20437ba7e7962720c22e576c5328
+SUB#17 OK: 81/99 reachable, kept 5 (top_n=5): https://5dhpdlseob53aeyys9dp36pgljrya5bi.3wt.workers.dev/sub?token=28ed4226aa75c9020e756ae823d0fe1c
+SUB#18 OK: 82/99 reachable, kept 5 (top_n=5): https://rsz4ce0d-i2kboob0ay2jbcen4kmm3qn.htf-842.workers.dev/sub?token=9a6175d70848e54bf3e01b297ecba21b
+SUB#19 OK: 85/99 reachable, kept 5 (top_n=5): https://n3k625vv1mav76lly56oo69z50krghy4.6hd.workers.dev/sub?token=e20dabeaf2eec808eaa7df5e7a7001c7
+SUB#20 OK: 81/99 reachable, kept 5 (top_n=5): https://hlfmd5qo7ujqg-b95brdgsjqnvskcy72.ti7wrw.workers.dev/sub?token=7fdcad22cbca5735cacb2a3bcf9db2bc
+SUB#21 OK: 73/99 reachable, kept 5 (top_n=5): https://vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev/sub?token=c1d3ac7b0c64d23aa3e0d1e26f83bc00
+SUB#22 OK: 77/99 reachable, kept 5 (top_n=5): https://mohammad38526.pages.dev/sub?token=6e81357c6086665250585fd54f3dfcff
+SUB#23 OK: 79/99 reachable, kept 5 (top_n=5): https://hdradfjhtgfdjsrt.pages.dev/sub?token=c924c9ffc95cdd965c3b522052e0095d
+SUB#24 OK: 80/99 reachable, kept 5 (top_n=5): https://ahmad99hoseini.pages.dev/sub?token=4d965d2b5f02ed28e4838c1c7488017b
+SUB#25 OK: 81/99 reachable, kept 5 (top_n=5): https://alireza48596.pages.dev/sub?token=c32a4f77171575b6d28499b21e13f3c8
+SUB#26 OK: 81/99 reachable, kept 5 (top_n=5): https://alphefedo7865.pages.dev/sub?token=135a5afdd6369eae37393e34aaa0a4ea
+SUB#27 OK: 78/99 reachable, kept 5 (top_n=5): https://mohammadhoseini4532.pages.dev/sub?token=f947737fcd8cea37c1e4f2ade4eead73
+SUB#28 OK: 84/99 reachable, kept 5 (top_n=5): https://pilot4f8f.pages.dev/sub?token=806601af7ac43d3f2dfa9386ce083cb0
+SUB#29 OK: 80/99 reachable, kept 5 (top_n=5): https://rezanoori4295.pages.dev/sub?token=b726fb6d32508b0b26d3956bc6164f4f
 
-Iran reachability (check-host.net): blocked=80, pass=492, unknown=2
-  104.16.144.155: pass [solid] (~103ms avg from Iran)
-  104.16.144.176: pass [solid] (~99ms avg from Iran)
-  104.16.144.2: pass [solid] (~102ms avg from Iran)
-  104.16.145.178: pass [solid] (~100ms avg from Iran)
-  104.16.146.130: pass [solid] (~101ms avg from Iran)
-  104.16.146.58: pass [solid] (~99ms avg from Iran)
-  104.16.146.91: pass [solid] (~99ms avg from Iran)
-  104.16.147.10: pass [solid] (~102ms avg from Iran)
-  104.16.147.210: pass [solid] (~99ms avg from Iran)
-  104.16.148.100: pass [solid] (~99ms avg from Iran)
-  104.16.149.133: pass [solid] (~104ms avg from Iran)
-  104.16.149.245: pass [solid] (~98ms avg from Iran)
-  104.16.149.36: pass [solid] (~97ms avg from Iran)
-  104.16.150.11: pass [solid] (~99ms avg from Iran)
-  104.16.151.74: pass [solid] (~100ms avg from Iran)
-  104.16.152.110: pass [solid] (~100ms avg from Iran)
-  104.16.152.152: pass [solid] (~96ms avg from Iran)
-  104.16.153.159: pass [solid] (~101ms avg from Iran)
-  104.16.153.63: pass [solid] (~100ms avg from Iran)
-  104.16.154.92: pass [solid] (~100ms avg from Iran)
-  104.16.155.20: pass [solid] (~98ms avg from Iran)
-  104.16.155.251: pass [solid] (~101ms avg from Iran)
-  104.16.156.38: pass [solid] (~99ms avg from Iran)
-  104.16.156.8: pass [solid] (~98ms avg from Iran)
-  104.16.157.25: pass [solid] (~99ms avg from Iran)
-  104.16.158.108: pass [solid] (~101ms avg from Iran)
-  104.16.158.126: pass [solid] (~99ms avg from Iran)
-  104.16.158.14: pass [solid] (~100ms avg from Iran)
-  104.16.159.145: pass [solid] (~104ms avg from Iran)
-  104.16.159.218: pass [solid] (~99ms avg from Iran)
-  104.16.240.60: pass [solid] (~101ms avg from Iran)
-  104.16.241.202: pass [solid] (~101ms avg from Iran)
-  104.16.242.241: pass [solid] (~102ms avg from Iran)
-  104.16.243.114: pass [solid] (~97ms avg from Iran)
-  104.16.245.114: pass [solid] (~98ms avg from Iran)
-  104.16.245.43: pass [solid] (~94ms avg from Iran)
-  104.16.247.116: pass [solid] (~98ms avg from Iran)
-  104.16.248.68: pass [solid] (~98ms avg from Iran)
-  104.16.249.215: pass [solid] (~98ms avg from Iran)
-  104.16.249.53: pass [solid] (~100ms avg from Iran)
-  104.16.249.54: pass [solid] (~99ms avg from Iran)
-  104.16.251.245: pass [solid] (~102ms avg from Iran)
-  104.16.251.57: pass [solid] (~103ms avg from Iran)
-  104.16.252.100: pass [solid] (~97ms avg from Iran)
-  104.16.252.251: pass [solid] (~105ms avg from Iran)
-  104.16.252.85: pass [solid] (~98ms avg from Iran)
-  104.16.253.125: pass [solid] (~94ms avg from Iran)
-  104.16.254.149: pass [solid] (~99ms avg from Iran)
-  104.16.254.172: pass [solid] (~99ms avg from Iran)
-  104.16.255.230: pass [solid] (~100ms avg from Iran)
-  104.17.100.208: pass [solid] (~103ms avg from Iran)
-  104.17.101.18: pass [solid] (~103ms avg from Iran)
-  104.17.102.126: pass [solid] (~99ms avg from Iran)
-  104.17.102.174: pass [solid] (~100ms avg from Iran)
-  104.17.103.140: pass [solid] (~97ms avg from Iran)
-  104.17.105.153: pass [solid] (~99ms avg from Iran)
-  104.17.107.186: pass [solid] (~101ms avg from Iran)
-  104.17.107.198: pass [solid] (~102ms avg from Iran)
-  104.17.109.154: pass [solid] (~99ms avg from Iran)
-  104.17.109.182: pass [solid] (~105ms avg from Iran)
-  104.17.109.80: pass [solid] (~100ms avg from Iran)
-  104.17.110.111: pass [solid] (~101ms avg from Iran)
-  104.17.112.105: pass [solid] (~104ms avg from Iran)
-  104.17.112.69: pass [solid] (~102ms avg from Iran)
-  104.17.113.93: pass [solid] (~104ms avg from Iran)
-  104.17.114.111: pass [solid] (~98ms avg from Iran)
-  104.17.114.135: pass [solid] (~102ms avg from Iran)
-  104.17.114.208: pass [solid] (~102ms avg from Iran)
-  104.17.115.151: pass [solid] (~101ms avg from Iran)
-  104.17.115.4: pass [solid] (~103ms avg from Iran)
-  104.17.115.65: pass [solid] (~104ms avg from Iran)
-  104.17.116.156: pass [solid] (~100ms avg from Iran)
-  104.17.116.25: pass [solid] (~97ms avg from Iran)
-  104.17.117.119: pass [solid] (~102ms avg from Iran)
-  104.17.117.142: pass [solid] (~98ms avg from Iran)
-  104.17.118.179: pass [solid] (~102ms avg from Iran)
-  104.17.118.182: pass [solid] (~99ms avg from Iran)
-  104.17.119.106: pass [solid] (~101ms avg from Iran)
-  104.17.120.129: pass [solid] (~100ms avg from Iran)
-  104.17.120.242: pass [solid] (~101ms avg from Iran)
-  104.17.120.89: pass [solid] (~100ms avg from Iran)
-  104.17.121.172: pass [solid] (~104ms avg from Iran)
-  104.17.122.74: pass [solid] (~98ms avg from Iran)
-  104.17.123.131: pass [solid] (~101ms avg from Iran)
-  104.17.123.176: pass [solid] (~100ms avg from Iran)
-  104.17.123.189: pass [solid] (~101ms avg from Iran)
-  104.17.124.175: pass [solid] (~101ms avg from Iran)
-  104.17.124.245: pass [solid] (~101ms avg from Iran)
-  104.17.127.112: pass [solid] (~100ms avg from Iran)
-  104.17.127.75: pass [solid] (~99ms avg from Iran)
-  104.17.144.156: pass [solid] (~100ms avg from Iran)
-  104.17.144.214: pass [solid] (~98ms avg from Iran)
-  104.17.145.180: pass [solid] (~102ms avg from Iran)
-  104.17.145.25: pass [solid] (~102ms avg from Iran)
-  104.17.146.0: pass [solid] (~99ms avg from Iran)
-  104.17.146.172: pass [solid] (~99ms avg from Iran)
-  104.17.148.201: pass [solid] (~97ms avg from Iran)
-  104.17.148.79: pass [solid] (~104ms avg from Iran)
-  104.17.149.118: pass [solid] (~98ms avg from Iran)
-  104.17.149.133: pass [solid] (~99ms avg from Iran)
-  104.17.149.164: pass [solid] (~98ms avg from Iran)
-  104.17.149.250: pass [solid] (~100ms avg from Iran)
-  104.17.150.152: pass [solid] (~101ms avg from Iran)
-  104.17.150.91: pass [solid] (~105ms avg from Iran)
-  104.17.151.110: pass [solid] (~98ms avg from Iran)
-  104.17.151.17: pass [solid] (~104ms avg from Iran)
-  104.17.153.204: pass [solid] (~101ms avg from Iran)
-  104.17.154.59: pass [solid] (~101ms avg from Iran)
-  104.17.154.86: pass [solid] (~102ms avg from Iran)
-  104.17.155.152: pass [solid] (~98ms avg from Iran)
-  104.17.157.189: pass [solid] (~102ms avg from Iran)
-  104.17.157.53: pass [solid] (~98ms avg from Iran)
-  104.17.158.146: pass [solid] (~100ms avg from Iran)
-  104.17.158.149: pass [solid] (~103ms avg from Iran)
-  104.17.158.177: pass [solid] (~101ms avg from Iran)
-  104.17.158.202: pass [solid] (~103ms avg from Iran)
-  104.17.159.225: pass [solid] (~104ms avg from Iran)
-  104.17.159.27: pass [solid] (~102ms avg from Iran)
-  104.17.16.146: pass [solid] (~99ms avg from Iran)
-  104.17.162.130: pass [solid] (~104ms avg from Iran)
-  104.17.162.218: pass [solid] (~99ms avg from Iran)
-  104.17.162.60: pass [solid] (~100ms avg from Iran)
-  104.17.164.160: pass [solid] (~100ms avg from Iran)
-  104.17.165.0: pass [solid] (~101ms avg from Iran)
-  104.17.166.125: pass [solid] (~100ms avg from Iran)
-  104.17.166.248: pass [solid] (~103ms avg from Iran)
-  104.17.166.63: pass [solid] (~102ms avg from Iran)
-  104.17.167.131: pass [solid] (~99ms avg from Iran)
-  104.17.167.165: pass [solid] (~99ms avg from Iran)
-  104.17.168.226: pass [solid] (~103ms avg from Iran)
-  104.17.168.45: pass [solid] (~103ms avg from Iran)
-  104.17.170.13: pass [solid] (~98ms avg from Iran)
-  104.17.170.26: pass [solid] (~99ms avg from Iran)
-  104.17.170.76: pass [solid] (~105ms avg from Iran)
-  104.17.171.136: pass [solid] (~99ms avg from Iran)
-  104.17.171.171: pass [solid] (~98ms avg from Iran)
-  104.17.171.51: pass [solid] (~101ms avg from Iran)
-  104.17.172.168: pass [solid] (~98ms avg from Iran)
-  104.17.172.250: pass [solid] (~99ms avg from Iran)
-  104.17.173.177: pass [solid] (~100ms avg from Iran)
-  104.17.173.244: pass [solid] (~99ms avg from Iran)
-  104.17.174.178: pass [solid] (~101ms avg from Iran)
-  104.17.174.193: pass [solid] (~100ms avg from Iran)
-  104.17.175.243: pass [solid] (~100ms avg from Iran)
-  104.17.175.247: pass [solid] (~97ms avg from Iran)
-  104.17.178.249: pass [solid] (~98ms avg from Iran)
-  104.17.179.131: pass [solid] (~99ms avg from Iran)
-  104.17.18.60: pass [solid] (~100ms avg from Iran)
-  104.17.180.58: pass [solid] (~96ms avg from Iran)
-  104.17.181.246: pass [solid] (~97ms avg from Iran)
-  104.17.182.240: pass [solid] (~101ms avg from Iran)
-  104.17.183.216: pass [solid] (~100ms avg from Iran)
-  104.17.183.239: pass [solid] (~100ms avg from Iran)
-  104.17.185.40: pass [solid] (~98ms avg from Iran)
-  104.17.186.148: pass [solid] (~101ms avg from Iran)
-  104.17.187.69: pass [solid] (~97ms avg from Iran)
-  104.17.187.97: pass [solid] (~100ms avg from Iran)
-  104.17.188.160: pass [solid] (~102ms avg from Iran)
-  104.17.188.229: pass [solid] (~96ms avg from Iran)
-  104.17.188.61: pass [solid] (~96ms avg from Iran)
-  104.17.189.109: pass [solid] (~99ms avg from Iran)
-  104.17.189.25: pass [solid] (~100ms avg from Iran)
-  104.17.190.86: pass [solid] (~101ms avg from Iran)
-  104.17.191.139: pass [solid] (~98ms avg from Iran)
-  104.17.191.92: pass [solid] (~98ms avg from Iran)
-  104.17.208.103: pass [solid] (~100ms avg from Iran)
-  104.17.209.218: pass [solid] (~100ms avg from Iran)
-  104.17.210.3: pass [solid] (~98ms avg from Iran)
-  104.17.210.84: pass [solid] (~100ms avg from Iran)
-  104.17.211.215: pass [solid] (~101ms avg from Iran)
-  104.17.212.161: pass [solid] (~99ms avg from Iran)
-  104.17.212.198: pass [solid] (~99ms avg from Iran)
-  104.17.212.69: pass [solid] (~100ms avg from Iran)
-  104.17.214.224: pass [solid] (~100ms avg from Iran)
-  104.17.214.47: pass [solid] (~101ms avg from Iran)
-  104.17.215.53: pass [solid] (~100ms avg from Iran)
-  104.17.216.115: pass [solid] (~97ms avg from Iran)
-  104.17.216.124: pass [solid] (~100ms avg from Iran)
-  104.17.216.187: pass [solid] (~105ms avg from Iran)
-  104.17.218.114: pass [solid] (~101ms avg from Iran)
-  104.17.218.118: pass [solid] (~101ms avg from Iran)
-  104.17.219.130: pass [solid] (~98ms avg from Iran)
-  104.17.22.169: pass [solid] (~98ms avg from Iran)
-  104.17.220.40: pass [solid] (~98ms avg from Iran)
-  104.17.223.125: pass [solid] (~99ms avg from Iran)
-  104.17.223.179: pass [solid] (~102ms avg from Iran)
-  104.17.223.193: pass [solid] (~103ms avg from Iran)
-  104.17.23.98: pass [solid] (~102ms avg from Iran)
-  104.17.24.182: pass [solid] (~102ms avg from Iran)
-  104.17.25.137: pass [solid] (~105ms avg from Iran)
-  104.17.25.27: pass [solid] (~105ms avg from Iran)
-  104.17.25.37: pass [solid] (~103ms avg from Iran)
-  104.17.25.39: pass [solid] (~103ms avg from Iran)
-  104.17.25.68: pass [solid] (~104ms avg from Iran)
-  104.17.26.207: pass [solid] (~105ms avg from Iran)
-  104.17.27.147: pass [solid] (~99ms avg from Iran)
-  104.17.27.209: pass [solid] (~106ms avg from Iran)
-  104.17.29.182: pass [solid] (~99ms avg from Iran)
-  104.17.29.242: pass [solid] (~99ms avg from Iran)
-  104.17.30.195: pass [solid] (~100ms avg from Iran)
-  104.17.30.240: pass [solid] (~103ms avg from Iran)
-  104.17.31.216: pass [solid] (~103ms avg from Iran)
-  104.17.31.50: pass [solid] (~100ms avg from Iran)
-  104.17.48.150: pass [solid] (~102ms avg from Iran)
-  104.17.48.57: pass [solid] (~98ms avg from Iran)
-  104.17.49.49: pass [solid] (~100ms avg from Iran)
-  104.17.50.181: pass [solid] (~98ms avg from Iran)
-  104.17.50.68: pass [solid] (~99ms avg from Iran)
-  104.17.52.118: pass [solid] (~101ms avg from Iran)
-  104.17.52.41: pass [solid] (~105ms avg from Iran)
-  104.17.52.84: pass [solid] (~103ms avg from Iran)
-  104.17.55.156: pass [solid] (~106ms avg from Iran)
-  104.17.56.206: pass [solid] (~102ms avg from Iran)
-  104.17.57.228: pass [solid] (~99ms avg from Iran)
-  104.17.57.6: pass [solid] (~102ms avg from Iran)
-  104.17.58.202: pass [solid] (~105ms avg from Iran)
-  104.17.58.80: pass [solid] (~99ms avg from Iran)
-  104.17.59.227: pass [solid] (~105ms avg from Iran)
-  104.17.59.237: pass [solid] (~99ms avg from Iran)
-  104.17.60.77: pass [solid] (~101ms avg from Iran)
-  104.17.61.121: pass [solid] (~99ms avg from Iran)
-  104.17.61.161: pass [solid] (~100ms avg from Iran)
-  104.17.61.178: pass [solid] (~96ms avg from Iran)
-  104.17.61.58: pass [solid] (~99ms avg from Iran)
-  104.17.62.182: pass [solid] (~102ms avg from Iran)
-  104.17.62.42: pass [solid] (~103ms avg from Iran)
-  104.17.63.165: pass [solid] (~99ms avg from Iran)
-  104.17.63.224: pass [solid] (~102ms avg from Iran)
-  104.17.63.67: pass [solid] (~95ms avg from Iran)
-  104.17.97.146: pass [solid] (~100ms avg from Iran)
-  104.17.97.240: pass [solid] (~99ms avg from Iran)
-  104.17.97.57: pass [solid] (~101ms avg from Iran)
-  104.17.99.72: pass [solid] (~98ms avg from Iran)
-  104.18.33.110: pass [solid] (~95ms avg from Iran)
-  104.18.33.111: pass [solid] (~99ms avg from Iran)
-  104.18.33.124: pass [solid] (~97ms avg from Iran)
-  104.18.33.137: pass [solid] (~96ms avg from Iran)
-  104.18.33.185: pass [solid] (~100ms avg from Iran)
-  104.18.33.200: pass [solid] (~105ms avg from Iran)
-  104.18.33.22: pass [solid] (~99ms avg from Iran)
-  104.18.33.233: pass [solid] (~98ms avg from Iran)
-  104.18.33.241: pass [solid] (~100ms avg from Iran)
-  104.18.33.252: pass [solid] (~102ms avg from Iran)
-  104.18.33.39: pass [solid] (~102ms avg from Iran)
-  104.18.33.64: pass [solid] (~99ms avg from Iran)
-  104.18.33.80: pass [solid] (~100ms avg from Iran)
-  104.19.144.102: pass [solid] (~99ms avg from Iran)
-  104.19.144.109: pass [solid] (~100ms avg from Iran)
-  104.19.145.166: pass [solid] (~103ms avg from Iran)
-  104.19.145.234: pass [solid] (~99ms avg from Iran)
-  104.19.145.99: pass [solid] (~105ms avg from Iran)
-  104.19.146.140: pass [solid] (~98ms avg from Iran)
-  104.19.147.100: pass [solid] (~96ms avg from Iran)
-  104.19.147.186: pass [solid] (~100ms avg from Iran)
-  104.19.147.23: pass [solid] (~98ms avg from Iran)
-  104.19.148.113: pass [solid] (~100ms avg from Iran)
-  104.19.148.142: pass [solid] (~97ms avg from Iran)
-  104.19.148.52: pass [solid] (~99ms avg from Iran)
-  104.19.148.53: pass [solid] (~99ms avg from Iran)
-  104.19.149.14: pass [solid] (~100ms avg from Iran)
-  104.19.149.185: pass [solid] (~101ms avg from Iran)
-  104.19.149.193: pass [solid] (~94ms avg from Iran)
-  104.19.149.236: pass [solid] (~98ms avg from Iran)
-  104.19.149.246: pass [solid] (~101ms avg from Iran)
-  104.19.150.183: pass [solid] (~98ms avg from Iran)
-  104.19.151.100: pass [solid] (~103ms avg from Iran)
-  104.19.151.164: pass [solid] (~96ms avg from Iran)
-  104.19.151.185: pass [solid] (~101ms avg from Iran)
-  104.19.151.253: pass [solid] (~100ms avg from Iran)
-  104.19.32.11: pass [solid] (~100ms avg from Iran)
-  104.19.32.14: pass [solid] (~100ms avg from Iran)
-  104.19.33.105: pass [solid] (~103ms avg from Iran)
-  104.19.33.112: pass [solid] (~97ms avg from Iran)
-  104.19.33.148: pass [solid] (~99ms avg from Iran)
-  104.19.33.223: pass [solid] (~99ms avg from Iran)
-  104.19.33.66: pass [solid] (~101ms avg from Iran)
-  104.19.33.78: pass [solid] (~96ms avg from Iran)
-  104.19.34.175: pass [solid] (~96ms avg from Iran)
-  104.19.34.96: pass [solid] (~98ms avg from Iran)
-  104.19.35.147: pass [solid] (~94ms avg from Iran)
-  104.19.35.87: pass [solid] (~97ms avg from Iran)
-  104.19.48.48: pass [solid] (~99ms avg from Iran)
-  104.19.49.162: pass [solid] (~98ms avg from Iran)
-  104.19.50.119: pass [solid] (~100ms avg from Iran)
-  104.19.51.228: pass [solid] (~93ms avg from Iran)
-  104.19.51.248: pass [solid] (~98ms avg from Iran)
-  104.19.51.251: pass [solid] (~100ms avg from Iran)
-  104.19.51.78: pass [solid] (~95ms avg from Iran)
-  104.19.51.80: pass [solid] (~99ms avg from Iran)
-  104.19.51.84: pass [solid] (~99ms avg from Iran)
-  104.19.52.42: pass [solid] (~98ms avg from Iran)
-  104.19.52.46: pass [solid] (~101ms avg from Iran)
-  104.19.53.189: pass [solid] (~103ms avg from Iran)
-  104.19.53.251: pass [solid] (~98ms avg from Iran)
-  104.19.53.87: pass [solid] (~100ms avg from Iran)
-  104.19.54.162: pass [solid] (~99ms avg from Iran)
-  104.19.54.58: pass [solid] (~98ms avg from Iran)
-  104.19.54.67: pass [solid] (~97ms avg from Iran)
-  104.19.55.51: pass [solid] (~100ms avg from Iran)
-  104.26.1.184: pass [solid] (~102ms avg from Iran)
-  104.26.10.143: pass [solid] (~98ms avg from Iran)
-  104.26.11.135: pass [solid] (~100ms avg from Iran)
-  104.26.15.236: pass [solid] (~96ms avg from Iran)
-  104.26.15.241: pass [solid] (~99ms avg from Iran)
-  104.26.3.223: pass [solid] (~97ms avg from Iran)
-  104.26.4.20: pass [solid] (~99ms avg from Iran)
-  104.26.5.138: pass [solid] (~100ms avg from Iran)
-  104.26.5.16: pass [solid] (~99ms avg from Iran)
-  104.26.5.191: pass [solid] (~101ms avg from Iran)
-  104.26.6.11: pass [solid] (~100ms avg from Iran)
-  104.26.6.168: pass [solid] (~93ms avg from Iran)
-  104.26.6.236: pass [solid] (~103ms avg from Iran)
-  104.26.6.64: pass [solid] (~97ms avg from Iran)
-  104.26.7.131: pass [solid] (~97ms avg from Iran)
-  104.26.8.114: pass [solid] (~99ms avg from Iran)
-  104.26.8.33: pass [solid] (~94ms avg from Iran)
-  104.26.9.130: pass [solid] (~99ms avg from Iran)
-  104.26.9.160: pass [solid] (~95ms avg from Iran)
-  108.162.198.10: pass [solid] (~101ms avg from Iran)
-  108.162.198.100: pass [solid] (~105ms avg from Iran)
-  108.162.198.113: pass [solid] (~104ms avg from Iran)
-  108.162.198.13: pass [solid] (~100ms avg from Iran)
-  108.162.198.144: pass [solid] (~101ms avg from Iran)
-  108.162.198.157: pass [solid] (~99ms avg from Iran)
-  108.162.198.162: pass [solid] (~103ms avg from Iran)
-  108.162.198.198: pass [solid] (~100ms avg from Iran)
-  108.162.198.200: pass [solid] (~105ms avg from Iran)
-  108.162.198.203: pass [solid] (~103ms avg from Iran)
-  108.162.198.214: pass [solid] (~102ms avg from Iran)
-  108.162.198.29: pass [solid] (~102ms avg from Iran)
-  108.162.198.30: pass [solid] (~103ms avg from Iran)
-  108.162.198.33: pass [solid] (~102ms avg from Iran)
-  108.162.198.38: pass [solid] (~100ms avg from Iran)
-  108.162.198.47: pass [solid] (~103ms avg from Iran)
-  108.162.198.66: pass [solid] (~103ms avg from Iran)
-  162.159.33.157: pass [solid] (~94ms avg from Iran)
-  162.159.34.11: pass [solid] (~95ms avg from Iran)
-  162.159.34.143: pass [solid] (~98ms avg from Iran)
-  162.159.34.174: pass [solid] (~98ms avg from Iran)
-  162.159.34.96: pass [solid] (~98ms avg from Iran)
-  162.159.35.151: pass [solid] (~100ms avg from Iran)
-  162.159.35.217: pass [solid] (~99ms avg from Iran)
-  162.159.36.102: pass [solid] (~98ms avg from Iran)
-  162.159.36.129: pass [solid] (~100ms avg from Iran)
-  162.159.36.158: pass [solid] (~100ms avg from Iran)
-  162.159.36.218: pass [solid] (~101ms avg from Iran)
-  162.159.38.14: pass [solid] (~119ms avg from Iran)
-  162.159.38.141: pass [solid] (~119ms avg from Iran)
-  162.159.38.159: pass [solid] (~118ms avg from Iran)
-  162.159.38.170: pass [solid] (~116ms avg from Iran)
-  162.159.38.173: pass [solid] (~116ms avg from Iran)
-  162.159.38.177: pass [solid] (~122ms avg from Iran)
-  162.159.38.191: pass [solid] (~115ms avg from Iran)
-  162.159.38.194: pass [solid] (~117ms avg from Iran)
-  162.159.38.207: pass [solid] (~116ms avg from Iran)
-  162.159.38.208: pass [solid] (~115ms avg from Iran)
-  162.159.38.230: pass [solid] (~119ms avg from Iran)
-  162.159.38.28: pass [solid] (~120ms avg from Iran)
-  162.159.38.47: pass [solid] (~121ms avg from Iran)
-  162.159.38.55: pass [solid] (~115ms avg from Iran)
-  162.159.38.58: pass [solid] (~114ms avg from Iran)
-  162.159.38.9: pass [solid] (~121ms avg from Iran)
-  162.159.39.100: pass [solid] (~120ms avg from Iran)
-  162.159.39.133: pass [solid] (~115ms avg from Iran)
-  162.159.39.143: pass [solid] (~122ms avg from Iran)
-  162.159.39.145: pass [solid] (~117ms avg from Iran)
-  162.159.39.171: pass [solid] (~118ms avg from Iran)
-  162.159.39.183: pass [solid] (~113ms avg from Iran)
-  162.159.39.223: pass [solid] (~115ms avg from Iran)
-  162.159.39.236: pass [solid] (~116ms avg from Iran)
-  162.159.39.53: pass [solid] (~112ms avg from Iran)
-  162.159.39.60: pass [solid] (~115ms avg from Iran)
-  162.159.41.160: pass [solid] (~100ms avg from Iran)
-  162.159.42.69: pass [solid] (~98ms avg from Iran)
-  162.159.43.115: pass [solid] (~100ms avg from Iran)
-  162.159.43.170: pass [solid] (~103ms avg from Iran)
-  162.159.43.183: pass [solid] (~101ms avg from Iran)
-  162.159.43.89: pass [solid] (~98ms avg from Iran)
-  162.159.44.152: pass [solid] (~120ms avg from Iran)
-  162.159.44.153: pass [solid] (~118ms avg from Iran)
-  162.159.44.181: pass [solid] (~116ms avg from Iran)
-  162.159.45.132: pass [solid] (~121ms avg from Iran)
-  162.159.45.161: pass [solid] (~113ms avg from Iran)
-  162.159.45.41: pass [solid] (~113ms avg from Iran)
-  162.159.46.234: pass [solid] (~100ms avg from Iran)
-  172.66.0.0: pass [solid] (~97ms avg from Iran)
-  172.66.0.149: pass [solid] (~100ms avg from Iran)
-  172.66.0.156: pass [solid] (~98ms avg from Iran)
-  172.66.0.176: pass [solid] (~98ms avg from Iran)
-  172.66.0.180: pass [solid] (~97ms avg from Iran)
-  172.66.0.198: pass [solid] (~99ms avg from Iran)
-  172.66.0.82: pass [solid] (~95ms avg from Iran)
-  172.66.1.16: pass [solid] (~100ms avg from Iran)
-  172.66.1.174: pass [solid] (~102ms avg from Iran)
-  172.66.1.216: pass [solid] (~101ms avg from Iran)
-  172.66.1.4: pass [solid] (~97ms avg from Iran)
-  172.66.1.55: pass [solid] (~94ms avg from Iran)
-  172.66.1.97: pass [solid] (~100ms avg from Iran)
-  172.66.2.15: pass [solid] (~97ms avg from Iran)
-  172.66.2.242: pass [solid] (~101ms avg from Iran)
-  172.66.2.251: pass [solid] (~102ms avg from Iran)
-  172.66.2.37: pass [solid] (~97ms avg from Iran)
-  172.66.2.89: pass [solid] (~97ms avg from Iran)
-  172.66.3.179: pass [solid] (~101ms avg from Iran)
-  172.66.3.187: pass [solid] (~105ms avg from Iran)
-  172.66.3.214: pass [solid] (~97ms avg from Iran)
-  172.66.3.23: pass [solid] (~99ms avg from Iran)
-  172.67.64.15: pass [solid] (~102ms avg from Iran)
-  172.67.64.23: pass [solid] (~100ms avg from Iran)
-  172.67.64.241: pass [solid] (~100ms avg from Iran)
-  172.67.65.246: pass [solid] (~102ms avg from Iran)
-  172.67.66.122: pass [solid] (~106ms avg from Iran)
-  172.67.66.68: pass [solid] (~101ms avg from Iran)
-  172.67.67.121: pass [solid] (~102ms avg from Iran)
-  172.67.67.93: pass [solid] (~100ms avg from Iran)
-  172.67.68.79: pass [solid] (~98ms avg from Iran)
-  172.67.70.152: pass [solid] (~98ms avg from Iran)
-  172.67.70.4: pass [solid] (~97ms avg from Iran)
-  172.67.70.94: pass [solid] (~100ms avg from Iran)
-  172.67.71.133: pass [solid] (~99ms avg from Iran)
-  172.67.71.253: pass [solid] (~103ms avg from Iran)
-  172.67.72.126: pass [solid] (~102ms avg from Iran)
-  172.67.73.54: pass [solid] (~97ms avg from Iran)
-  172.67.74.121: pass [solid] (~102ms avg from Iran)
-  172.67.74.164: pass [solid] (~99ms avg from Iran)
-  172.67.74.208: pass [solid] (~98ms avg from Iran)
-  172.67.75.131: pass [solid] (~99ms avg from Iran)
-  172.67.77.3: pass [solid] (~97ms avg from Iran)
-  172.67.78.119: pass [solid] (~97ms avg from Iran)
-  188.164.248.1: pass [solid] (~74ms avg from Iran)
-  188.164.248.130: pass [solid] (~73ms avg from Iran)
-  188.164.248.14: pass [solid] (~63ms avg from Iran)
-  188.164.248.141: pass [solid] (~68ms avg from Iran)
-  188.164.248.20: pass [solid] (~66ms avg from Iran)
-  188.164.248.203: pass [solid] (~74ms avg from Iran)
-  188.164.248.226: pass [solid] (~61ms avg from Iran)
-  188.164.248.235: pass [solid] (~69ms avg from Iran)
-  188.164.248.33: pass [solid] (~69ms avg from Iran)
-  188.164.248.48: pass [solid] (~72ms avg from Iran)
-  188.164.248.64: pass [solid] (~61ms avg from Iran)
-  188.164.248.70: pass [solid] (~67ms avg from Iran)
-  188.164.248.73: pass [solid] (~65ms avg from Iran)
-  188.164.248.82: pass [solid] (~60ms avg from Iran)
-  188.164.248.88: pass [solid] (~79ms avg from Iran)
-  198.41.208.10: pass [solid] (~98ms avg from Iran)
-  198.41.208.102: pass [solid] (~97ms avg from Iran)
-  198.41.208.134: pass [solid] (~99ms avg from Iran)
-  198.41.208.140: pass [solid] (~99ms avg from Iran)
-  198.41.208.177: pass [solid] (~101ms avg from Iran)
-  198.41.208.188: pass [solid] (~99ms avg from Iran)
-  198.41.208.191: pass [solid] (~100ms avg from Iran)
-  198.41.208.220: pass [solid] (~100ms avg from Iran)
-  198.41.208.225: pass [solid] (~101ms avg from Iran)
-  198.41.208.243: pass [solid] (~99ms avg from Iran)
-  198.41.208.33: pass [solid] (~97ms avg from Iran)
-  198.41.208.40: pass [solid] (~100ms avg from Iran)
-  198.41.209.100: pass [solid] (~99ms avg from Iran)
-  198.41.209.139: pass [solid] (~102ms avg from Iran)
-  198.41.209.147: pass [solid] (~99ms avg from Iran)
-  198.41.209.15: pass [solid] (~102ms avg from Iran)
-  198.41.209.203: pass [solid] (~102ms avg from Iran)
-  198.41.209.212: pass [solid] (~103ms avg from Iran)
-  198.41.209.220: pass [solid] (~100ms avg from Iran)
-  198.41.209.230: pass [solid] (~100ms avg from Iran)
-  198.41.209.30: pass [solid] (~99ms avg from Iran)
-  198.41.209.34: pass [solid] (~100ms avg from Iran)
-  198.41.209.35: pass [solid] (~101ms avg from Iran)
-  198.41.209.84: pass [solid] (~97ms avg from Iran)
-  198.41.209.90: pass [solid] (~100ms avg from Iran)
-  8.35.211.147: pass [solid] (~99ms avg from Iran)
-  8.35.211.163: pass [solid] (~101ms avg from Iran)
-  8.35.211.185: pass [solid] (~101ms avg from Iran)
-  8.35.211.23: pass [solid] (~99ms avg from Iran)
-  8.35.211.76: pass [solid] (~104ms avg from Iran)
-  8.35.211.86: pass [solid] (~100ms avg from Iran)
-  8.39.125.102: pass [solid] (~101ms avg from Iran)
-  8.39.125.119: pass [solid] (~99ms avg from Iran)
-  8.39.125.133: pass [solid] (~103ms avg from Iran)
-  8.39.125.163: pass [solid] (~95ms avg from Iran)
-  8.39.125.175: pass [solid] (~98ms avg from Iran)
-  8.39.125.242: pass [solid] (~100ms avg from Iran)
-  8.39.125.247: pass [solid] (~100ms avg from Iran)
-  91.193.58.103: pass [solid] (~84ms avg from Iran)
-  91.193.58.142: pass [solid] (~62ms avg from Iran)
-  91.193.58.198: pass [solid] (~70ms avg from Iran)
-  91.193.58.210: pass [solid] (~76ms avg from Iran)
-  91.193.58.213: pass [solid] (~68ms avg from Iran)
-  91.193.59.129: pass [solid] (~69ms avg from Iran)
-  91.193.59.168: pass [solid] (~72ms avg from Iran)
-  91.193.59.182: pass [solid] (~70ms avg from Iran)
-  91.193.59.225: pass [solid] (~78ms avg from Iran)
-  91.193.59.73: pass [solid] (~68ms avg from Iran)
-  162.159.37.166: unknown
-  162.159.37.24: unknown
-  104.16.155.126: blocked
-  104.16.250.16: blocked
-  104.16.255.85: blocked
-  104.17.108.80: blocked
-  104.17.121.22: blocked
-  104.17.127.139: blocked
-  104.17.150.15: blocked
-  104.19.146.130: blocked
-  104.19.54.71: blocked
-  108.162.198.145: blocked
-  162.159.33.136: blocked
-  162.159.39.157: blocked (~100ms avg from Iran)
-  172.67.64.113: blocked
-  188.164.248.0: blocked
-  188.164.248.114: blocked
-  188.164.248.115: blocked (~19ms avg from Iran)
-  188.164.248.124: blocked (~13ms avg from Iran)
-  188.164.248.157: blocked
-  188.164.248.16: blocked (~79ms avg from Iran)
-  188.164.248.161: blocked
-  188.164.248.165: blocked
-  188.164.248.168: blocked
-  188.164.248.181: blocked
-  188.164.248.219: blocked (~21ms avg from Iran)
-  188.164.248.52: blocked
-  188.164.248.54: blocked
-  198.41.208.130: blocked
-  198.41.208.135: blocked
-  198.41.208.182: blocked (~86ms avg from Iran)
-  198.41.208.242: blocked
-  198.41.208.36: blocked
-  198.41.209.20: blocked
-  198.41.209.231: blocked (~87ms avg from Iran)
-  198.41.209.58: blocked
-  8.35.211.102: blocked (~85ms avg from Iran)
-  8.35.211.112: blocked
-  8.35.211.118: blocked
-  8.35.211.119: blocked
-  8.35.211.130: blocked (~80ms avg from Iran)
-  8.35.211.134: blocked
-  8.35.211.138: blocked (~78ms avg from Iran)
-  8.35.211.141: blocked (~75ms avg from Iran)
-  8.35.211.154: blocked
-  8.35.211.179: blocked (~86ms avg from Iran)
-  8.35.211.190: blocked
-  8.35.211.223: blocked
-  8.35.211.231: blocked (~86ms avg from Iran)
-  8.35.211.255: blocked
-  8.35.211.45: blocked (~88ms avg from Iran)
-  8.35.211.54: blocked
-  8.35.211.77: blocked
-  8.35.211.85: blocked (~89ms avg from Iran)
-  8.35.211.91: blocked
-  8.35.211.99: blocked
-  8.39.125.1: blocked
-  8.39.125.10: blocked
-  8.39.125.114: blocked (~83ms avg from Iran)
-  8.39.125.162: blocked
-  8.39.125.187: blocked
-  8.39.125.224: blocked
-  8.39.125.243: blocked
-  8.39.125.44: blocked
-  8.39.125.55: blocked
-  8.39.125.61: blocked
-  8.39.125.68: blocked (~86ms avg from Iran)
-  8.39.125.7: blocked
-  8.39.125.92: blocked (~79ms avg from Iran)
-  8.39.125.95: blocked (~87ms avg from Iran)
-  8.39.125.98: blocked
-  91.193.58.101: blocked
-  91.193.58.127: blocked
-  91.193.58.130: blocked (~13ms avg from Iran)
-  91.193.58.203: blocked
-  91.193.58.231: blocked
-  91.193.58.252: blocked
-  91.193.58.47: blocked
-  91.193.58.53: blocked
-  91.193.58.79: blocked
-  91.193.59.84: blocked (~21ms avg from Iran)
-  91.193.59.97: blocked (~13ms avg from Iran)
+Iran reachability (check-host.net): blocked=24, pass=252, unknown=206
+  104.16.145.153: pass (~85ms avg from Iran)
+  104.16.145.243: pass (~85ms avg from Iran)
+  104.16.146.166: pass (~87ms avg from Iran)
+  104.16.147.157: pass (~84ms avg from Iran)
+  104.16.147.33: pass [solid] (~87ms avg from Iran)
+  104.16.147.41: pass (~87ms avg from Iran)
+  104.16.148.97: pass [solid] (~80ms avg from Iran)
+  104.16.151.145: pass (~85ms avg from Iran)
+  104.16.151.229: pass (~86ms avg from Iran)
+  104.16.152.78: pass (~85ms avg from Iran)
+  104.16.154.19: pass (~86ms avg from Iran)
+  104.16.155.203: pass (~86ms avg from Iran)
+  104.16.156.4: pass (~87ms avg from Iran)
+  104.16.157.218: pass (~86ms avg from Iran)
+  104.16.159.130: pass (~88ms avg from Iran)
+  104.16.242.136: pass (~86ms avg from Iran)
+  104.16.243.157: pass (~83ms avg from Iran)
+  104.16.244.191: pass (~85ms avg from Iran)
+  104.16.247.76: pass (~85ms avg from Iran)
+  104.16.248.67: pass (~84ms avg from Iran)
+  104.16.248.96: pass (~88ms avg from Iran)
+  104.16.250.190: pass (~85ms avg from Iran)
+  104.16.252.70: pass (~86ms avg from Iran)
+  104.16.253.14: pass (~86ms avg from Iran)
+  104.16.253.172: pass (~82ms avg from Iran)
+  104.16.254.94: pass (~83ms avg from Iran)
+  104.16.255.144: pass (~86ms avg from Iran)
+  104.16.255.169: pass (~85ms avg from Iran)
+  104.16.255.255: pass (~86ms avg from Iran)
+  104.17.100.117: pass (~85ms avg from Iran)
+  104.17.101.119: pass (~87ms avg from Iran)
+  104.17.104.130: pass (~88ms avg from Iran)
+  104.17.104.233: pass (~85ms avg from Iran)
+  104.17.106.114: pass (~85ms avg from Iran)
+  104.17.107.219: pass (~85ms avg from Iran)
+  104.17.107.225: pass (~83ms avg from Iran)
+  104.17.109.51: pass (~86ms avg from Iran)
+  104.17.110.110: pass (~83ms avg from Iran)
+  104.17.110.164: pass (~87ms avg from Iran)
+  104.17.111.244: pass (~85ms avg from Iran)
+  104.17.111.80: pass (~85ms avg from Iran)
+  104.17.115.145: pass [solid] (~83ms avg from Iran)
+  104.17.115.202: pass (~85ms avg from Iran)
+  104.17.115.75: pass (~86ms avg from Iran)
+  104.17.116.241: pass (~86ms avg from Iran)
+  104.17.116.67: pass (~84ms avg from Iran)
+  104.17.120.16: pass (~83ms avg from Iran)
+  104.17.122.3: pass (~85ms avg from Iran)
+  104.17.122.43: pass (~84ms avg from Iran)
+  104.17.122.52: pass (~87ms avg from Iran)
+  104.17.122.57: pass (~86ms avg from Iran)
+  104.17.125.122: pass (~87ms avg from Iran)
+  104.17.125.32: pass (~87ms avg from Iran)
+  104.17.126.69: pass (~88ms avg from Iran)
+  104.17.126.89: pass (~84ms avg from Iran)
+  104.17.144.93: pass (~85ms avg from Iran)
+  104.17.146.59: pass (~87ms avg from Iran)
+  104.17.148.159: pass (~84ms avg from Iran)
+  104.17.148.220: pass (~86ms avg from Iran)
+  104.17.149.156: pass (~85ms avg from Iran)
+  104.17.149.179: pass (~86ms avg from Iran)
+  104.17.150.214: pass (~84ms avg from Iran)
+  104.17.150.33: pass (~88ms avg from Iran)
+  104.17.150.54: pass (~84ms avg from Iran)
+  104.17.151.218: pass (~85ms avg from Iran)
+  104.17.153.92: pass (~85ms avg from Iran)
+  104.17.154.8: pass (~86ms avg from Iran)
+  104.17.157.100: pass (~82ms avg from Iran)
+  104.17.158.126: pass (~87ms avg from Iran)
+  104.17.158.38: pass (~86ms avg from Iran)
+  104.17.161.150: pass (~87ms avg from Iran)
+  104.17.161.173: pass (~87ms avg from Iran)
+  104.17.163.234: pass (~88ms avg from Iran)
+  104.17.164.184: pass (~87ms avg from Iran)
+  104.17.164.203: pass (~87ms avg from Iran)
+  104.17.166.68: pass (~86ms avg from Iran)
+  104.17.169.149: pass (~88ms avg from Iran)
+  104.17.169.244: pass (~86ms avg from Iran)
+  104.17.169.248: pass (~84ms avg from Iran)
+  104.17.171.212: pass (~88ms avg from Iran)
+  104.17.171.60: pass (~86ms avg from Iran)
+  104.17.175.170: pass (~84ms avg from Iran)
+  104.17.176.120: pass (~85ms avg from Iran)
+  104.17.176.138: pass (~84ms avg from Iran)
+  104.17.176.153: pass (~86ms avg from Iran)
+  104.17.176.173: pass (~85ms avg from Iran)
+  104.17.176.188: pass (~86ms avg from Iran)
+  104.17.176.28: pass (~81ms avg from Iran)
+  104.17.176.66: pass (~87ms avg from Iran)
+  104.17.180.209: pass [solid] (~88ms avg from Iran)
+  104.17.181.82: pass (~84ms avg from Iran)
+  104.17.182.6: pass (~84ms avg from Iran)
+  104.17.183.16: pass (~85ms avg from Iran)
+  104.17.184.135: pass (~87ms avg from Iran)
+  104.17.185.167: pass (~87ms avg from Iran)
+  104.17.185.54: pass (~80ms avg from Iran)
+  104.17.188.26: pass [solid] (~86ms avg from Iran)
+  104.17.189.206: pass (~87ms avg from Iran)
+  104.17.208.202: pass (~84ms avg from Iran)
+  104.17.211.211: pass (~85ms avg from Iran)
+  104.17.211.30: pass [solid] (~82ms avg from Iran)
+  104.17.212.39: pass (~89ms avg from Iran)
+  104.17.214.181: pass [solid] (~84ms avg from Iran)
+  104.17.214.96: pass [solid] (~85ms avg from Iran)
+  104.17.216.129: pass [solid] (~86ms avg from Iran)
+  104.17.217.79: pass (~85ms avg from Iran)
+  104.17.219.166: pass (~85ms avg from Iran)
+  104.17.22.183: pass (~85ms avg from Iran)
+  104.17.220.69: pass (~87ms avg from Iran)
+  104.17.223.110: pass (~85ms avg from Iran)
+  104.17.24.192: pass (~87ms avg from Iran)
+  104.17.26.134: pass (~86ms avg from Iran)
+  104.17.27.101: pass (~86ms avg from Iran)
+  104.17.27.18: pass [solid] (~85ms avg from Iran)
+  104.17.28.131: pass (~86ms avg from Iran)
+  104.17.28.153: pass [solid] (~84ms avg from Iran)
+  104.17.28.252: pass (~88ms avg from Iran)
+  104.17.29.197: pass (~86ms avg from Iran)
+  104.17.29.97: pass (~87ms avg from Iran)
+  104.17.51.151: pass (~84ms avg from Iran)
+  104.17.53.231: pass (~84ms avg from Iran)
+  104.17.55.50: pass (~85ms avg from Iran)
+  104.17.56.148: pass (~87ms avg from Iran)
+  104.17.56.68: pass (~83ms avg from Iran)
+  104.17.57.106: pass (~87ms avg from Iran)
+  104.17.58.219: pass (~84ms avg from Iran)
+  104.17.58.81: pass (~85ms avg from Iran)
+  104.17.59.191: pass (~84ms avg from Iran)
+  104.17.60.87: pass (~89ms avg from Iran)
+  104.17.61.113: pass (~85ms avg from Iran)
+  104.17.61.212: pass (~84ms avg from Iran)
+  104.17.62.53: pass (~84ms avg from Iran)
+  104.17.63.215: pass (~87ms avg from Iran)
+  104.17.63.249: pass (~86ms avg from Iran)
+  104.17.63.8: pass (~85ms avg from Iran)
+  104.17.96.3: pass (~83ms avg from Iran)
+  104.17.97.238: pass (~86ms avg from Iran)
+  104.17.98.80: pass (~87ms avg from Iran)
+  104.18.33.133: pass (~85ms avg from Iran)
+  104.18.33.184: pass (~87ms avg from Iran)
+  104.18.33.214: pass (~83ms avg from Iran)
+  104.18.33.219: pass (~85ms avg from Iran)
+  104.18.33.221: pass (~87ms avg from Iran)
+  104.18.33.227: pass (~86ms avg from Iran)
+  104.18.33.239: pass (~86ms avg from Iran)
+  104.18.33.24: pass [solid] (~85ms avg from Iran)
+  104.18.33.251: pass (~85ms avg from Iran)
+  104.18.33.35: pass (~87ms avg from Iran)
+  104.18.33.36: pass (~87ms avg from Iran)
+  104.18.33.5: pass (~87ms avg from Iran)
+  104.18.33.54: pass (~87ms avg from Iran)
+  104.18.33.62: pass (~85ms avg from Iran)
+  104.18.33.79: pass (~86ms avg from Iran)
+  104.18.33.86: pass (~86ms avg from Iran)
+  104.18.33.96: pass (~85ms avg from Iran)
+  104.19.146.38: pass (~84ms avg from Iran)
+  104.19.147.70: pass (~87ms avg from Iran)
+  104.19.149.104: pass (~85ms avg from Iran)
+  104.19.149.203: pass (~87ms avg from Iran)
+  104.19.150.236: pass (~86ms avg from Iran)
+  104.19.32.164: pass [solid] (~88ms avg from Iran)
+  104.19.32.80: pass (~85ms avg from Iran)
+  104.19.33.42: pass (~87ms avg from Iran)
+  104.19.33.64: pass (~86ms avg from Iran)
+  104.19.33.98: pass (~86ms avg from Iran)
+  104.19.34.102: pass (~83ms avg from Iran)
+  104.19.34.157: pass (~86ms avg from Iran)
+  104.19.34.199: pass (~84ms avg from Iran)
+  104.19.34.247: pass [solid] (~87ms avg from Iran)
+  104.19.34.87: pass (~84ms avg from Iran)
+  104.19.35.122: pass (~84ms avg from Iran)
+  104.19.35.144: pass (~86ms avg from Iran)
+  104.19.35.16: pass (~87ms avg from Iran)
+  104.19.35.17: pass (~86ms avg from Iran)
+  104.19.35.209: pass (~85ms avg from Iran)
+  104.19.35.34: pass (~88ms avg from Iran)
+  104.19.35.69: pass (~86ms avg from Iran)
+  104.19.48.72: pass (~85ms avg from Iran)
+  104.19.49.190: pass (~85ms avg from Iran)
+  104.19.49.253: pass (~83ms avg from Iran)
+  104.19.50.12: pass [solid] (~87ms avg from Iran)
+  104.19.50.230: pass [solid] (~86ms avg from Iran)
+  104.19.50.254: pass (~87ms avg from Iran)
+  104.19.50.35: pass (~85ms avg from Iran)
+  104.19.50.85: pass (~84ms avg from Iran)
+  104.19.51.197: pass (~85ms avg from Iran)
+  104.19.55.104: pass (~87ms avg from Iran)
+  104.19.55.251: pass (~85ms avg from Iran)
+  104.19.55.3: pass (~86ms avg from Iran)
+  104.19.55.94: pass (~85ms avg from Iran)
+  104.26.1.75: pass (~88ms avg from Iran)
+  104.26.11.156: pass [solid] (~88ms avg from Iran)
+  104.26.13.206: pass (~88ms avg from Iran)
+  104.26.13.237: pass (~86ms avg from Iran)
+  104.26.3.148: pass (~85ms avg from Iran)
+  104.26.3.200: pass (~86ms avg from Iran)
+  104.26.3.244: pass (~84ms avg from Iran)
+  104.26.4.209: pass (~87ms avg from Iran)
+  104.26.9.226: pass (~86ms avg from Iran)
+  172.66.0.133: pass [solid] (~84ms avg from Iran)
+  172.66.0.75: pass [solid] (~85ms avg from Iran)
+  172.66.1.10: pass (~84ms avg from Iran)
+  172.66.1.14: pass [solid] (~87ms avg from Iran)
+  172.66.1.167: pass (~87ms avg from Iran)
+  172.66.1.78: pass (~84ms avg from Iran)
+  172.66.3.143: pass (~86ms avg from Iran)
+  172.66.3.192: pass [solid] (~88ms avg from Iran)
+  172.66.3.217: pass (~85ms avg from Iran)
+  172.67.65.215: pass [solid] (~86ms avg from Iran)
+  172.67.65.45: pass (~86ms avg from Iran)
+  172.67.65.58: pass [solid] (~87ms avg from Iran)
+  172.67.67.89: pass (~88ms avg from Iran)
+  172.67.67.98: pass (~87ms avg from Iran)
+  172.67.69.223: pass (~84ms avg from Iran)
+  172.67.70.133: pass (~87ms avg from Iran)
+  172.67.70.29: pass (~84ms avg from Iran)
+  172.67.71.19: pass (~85ms avg from Iran)
+  172.67.72.172: pass (~87ms avg from Iran)
+  172.67.75.104: pass (~88ms avg from Iran)
+  172.67.75.198: pass (~83ms avg from Iran)
+  172.67.76.4: pass (~86ms avg from Iran)
+  172.67.76.68: pass (~87ms avg from Iran)
+  172.67.77.223: pass (~87ms avg from Iran)
+  172.67.78.1: pass (~87ms avg from Iran)
+  172.67.79.93: pass (~87ms avg from Iran)
+  188.164.248.101: pass (~54ms avg from Iran)
+  188.164.248.113: pass (~55ms avg from Iran)
+  188.164.248.139: pass (~47ms avg from Iran)
+  188.164.248.153: pass (~53ms avg from Iran)
+  188.164.248.213: pass (~63ms avg from Iran)
+  188.164.248.42: pass (~45ms avg from Iran)
+  188.164.248.63: pass (~55ms avg from Iran)
+  188.164.248.98: pass (~66ms avg from Iran)
+  188.164.248.99: pass (~54ms avg from Iran)
+  8.35.211.0: pass (~84ms avg from Iran)
+  8.39.125.109: pass (~88ms avg from Iran)
+  8.39.125.144: pass (~89ms avg from Iran)
+  8.39.125.166: pass (~85ms avg from Iran)
+  8.39.125.182: pass (~86ms avg from Iran)
+  8.39.125.199: pass (~84ms avg from Iran)
+  8.39.125.37: pass (~87ms avg from Iran)
+  8.39.125.48: pass (~84ms avg from Iran)
+  8.39.125.56: pass (~85ms avg from Iran)
+  8.39.125.66: pass (~87ms avg from Iran)
+  8.39.125.88: pass (~85ms avg from Iran)
+  91.193.58.24: pass (~63ms avg from Iran)
+  91.193.58.250: pass (~55ms avg from Iran)
+  91.193.58.52: pass (~62ms avg from Iran)
+  91.193.58.59: pass [solid] (~46ms avg from Iran)
+  91.193.59.164: pass [solid] (~46ms avg from Iran)
+  91.193.59.170: pass (~47ms avg from Iran)
+  91.193.59.233: pass (~54ms avg from Iran)
+  104.16.144.227: unknown
+  104.16.147.244: unknown
+  104.16.150.26: unknown
+  104.16.151.114: unknown
+  104.16.154.79: unknown
+  104.16.156.86: unknown
+  104.16.157.240: unknown
+  104.16.158.37: unknown
+  104.16.158.64: unknown
+  104.16.240.18: unknown
+  104.16.245.126: unknown
+  104.16.248.49: unknown
+  104.16.252.109: unknown
+  104.16.252.215: unknown
+  104.16.253.233: unknown
+  104.17.101.250: unknown
+  104.17.105.159: unknown
+  104.17.105.194: unknown
+  104.17.109.178: unknown
+  104.17.109.214: unknown
+  104.17.109.36: unknown
+  104.17.110.239: unknown
+  104.17.112.13: unknown
+  104.17.112.25: unknown
+  104.17.113.19: unknown
+  104.17.113.199: unknown
+  104.17.117.184: unknown
+  104.17.117.211: unknown
+  104.17.119.227: unknown
+  104.17.121.215: unknown
+  104.17.122.187: unknown
+  104.17.123.55: unknown
+  104.17.123.91: unknown
+  104.17.124.233: unknown
+  104.17.144.134: unknown
+  104.17.145.63: unknown
+  104.17.146.114: unknown
+  104.17.147.229: unknown
+  104.17.147.39: unknown
+  104.17.152.119: unknown
+  104.17.152.199: unknown
+  104.17.152.91: unknown
+  104.17.153.15: unknown
+  104.17.153.52: unknown
+  104.17.164.167: unknown
+  104.17.167.34: unknown
+  104.17.167.68: unknown
+  104.17.170.175: unknown
+  104.17.170.81: unknown
+  104.17.176.16: unknown
+  104.17.178.216: unknown
+  104.17.179.180: unknown
+  104.17.179.211: unknown
+  104.17.18.242: unknown
+  104.17.181.131: unknown
+  104.17.181.191: unknown
+  104.17.181.252: unknown
+  104.17.183.210: unknown
+  104.17.188.181: unknown
+  104.17.189.198: unknown
+  104.17.190.126: unknown
+  104.17.191.62: unknown
+  104.17.191.76: unknown
+  104.17.20.129: unknown
+  104.17.20.255: unknown
+  104.17.21.208: unknown
+  104.17.210.213: unknown
+  104.17.210.51: unknown
+  104.17.211.234: unknown
+  104.17.212.37: unknown
+  104.17.213.230: unknown
+  104.17.214.69: unknown
+  104.17.215.217: unknown
+  104.17.217.183: unknown
+  104.17.219.112: unknown
+  104.17.219.38: unknown
+  104.17.220.18: unknown
+  104.17.221.139: unknown
+  104.17.221.30: unknown
+  104.17.222.170: unknown
+  104.17.24.169: unknown
+  104.17.25.164: unknown
+  104.17.26.43: unknown
+  104.17.27.138: unknown
+  104.17.28.161: unknown
+  104.17.28.52: unknown
+  104.17.29.34: unknown
+  104.17.31.33: unknown
+  104.17.49.38: unknown
+  104.17.50.37: unknown
+  104.17.52.147: unknown
+  104.17.53.51: unknown
+  104.17.54.14: unknown
+  104.17.57.149: unknown
+  104.17.97.236: unknown
+  104.17.97.93: unknown
+  104.17.98.120: unknown
+  104.17.99.119: unknown
+  104.17.99.186: unknown
+  104.18.33.16: unknown
+  104.18.33.162: unknown
+  104.18.33.196: unknown
+  104.18.33.210: unknown
+  104.18.33.226: unknown
+  104.18.33.50: unknown
+  104.18.33.92: unknown
+  104.19.144.226: unknown
+  104.19.144.6: unknown
+  104.19.145.114: unknown
+  104.19.147.12: unknown
+  104.19.147.132: unknown
+  104.19.148.20: unknown
+  104.19.148.48: unknown
+  104.19.148.74: unknown
+  104.19.151.50: unknown
+  104.19.32.248: unknown
+  104.19.33.233: unknown
+  104.19.34.24: unknown
+  104.19.35.109: unknown
+  104.19.35.117: unknown
+  104.19.35.164: unknown
+  104.19.35.58: unknown
+  104.19.48.198: unknown
+  104.19.48.40: unknown
+  104.19.48.60: unknown
+  104.19.49.133: unknown
+  104.19.49.199: unknown
+  104.19.50.159: unknown
+  104.19.51.107: unknown
+  104.19.51.114: unknown
+  104.19.52.178: unknown
+  104.19.52.38: unknown
+  104.19.54.140: unknown
+  104.19.55.179: unknown
+  104.26.1.185: unknown
+  104.26.10.136: unknown
+  104.26.12.110: unknown
+  104.26.14.109: unknown
+  104.26.15.24: unknown
+  104.26.2.52: unknown
+  104.26.3.39: unknown
+  104.26.4.175: unknown
+  104.26.5.120: unknown
+  104.26.8.147: unknown
+  104.26.9.199: unknown
+  104.26.9.92: unknown
+  172.66.0.165: unknown
+  172.66.0.98: unknown
+  172.66.1.133: unknown
+  172.66.1.161: unknown
+  172.66.1.255: unknown
+  172.66.1.45: unknown
+  172.66.1.74: unknown
+  172.66.1.83: unknown
+  172.66.2.5: unknown
+  172.66.3.116: unknown
+  172.66.3.155: unknown
+  172.66.3.210: unknown
+  172.66.3.218: unknown
+  172.66.3.248: unknown
+  172.66.3.255: unknown
+  172.67.68.28: unknown
+  172.67.69.235: unknown
+  172.67.71.43: unknown
+  172.67.72.81: unknown
+  172.67.73.127: unknown
+  172.67.73.130: unknown
+  172.67.74.172: unknown
+  172.67.74.180: unknown
+  188.164.248.108: unknown
+  188.164.248.147: unknown
+  188.164.248.159: unknown
+  188.164.248.160: unknown
+  188.164.248.166: unknown
+  188.164.248.209: unknown
+  188.164.248.249: unknown
+  188.164.248.35: unknown
+  188.164.248.96: unknown
+  8.35.211.117: unknown
+  8.35.211.168: unknown
+  8.35.211.18: unknown
+  8.35.211.194: unknown
+  8.35.211.249: unknown
+  8.35.211.61: unknown
+  8.39.125.14: unknown
+  8.39.125.152: unknown
+  8.39.125.154: unknown
+  8.39.125.164: unknown
+  8.39.125.250: unknown
+  8.39.125.251: unknown
+  8.39.125.253: unknown
+  8.39.125.94: unknown
+  91.193.58.139: unknown
+  91.193.58.174: unknown
+  91.193.58.177: unknown
+  91.193.58.183: unknown
+  91.193.58.188: unknown
+  91.193.58.219: unknown
+  91.193.58.230: unknown
+  91.193.58.35: unknown
+  91.193.58.43: unknown
+  91.193.58.51: unknown
+  91.193.58.63: unknown
+  91.193.59.100: unknown
+  91.193.59.102: unknown
+  91.193.59.53: unknown
+  104.17.121.231: blocked
+  104.17.145.125: blocked
+  104.17.160.84: blocked
+  104.19.145.120: blocked
+  104.19.33.171: blocked
+  188.164.248.126: blocked (~12ms avg from Iran)
+  188.164.248.131: blocked
+  188.164.248.177: blocked
+  188.164.248.23: blocked
+  188.164.248.242: blocked
+  188.164.248.59: blocked (~21ms avg from Iran)
+  8.35.211.109: blocked
+  8.35.211.121: blocked
+  8.35.211.13: blocked
+  8.35.211.28: blocked
+  8.35.211.82: blocked
+  8.39.125.106: blocked (~87ms avg from Iran)
+  8.39.125.145: blocked
+  8.39.125.178: blocked (~83ms avg from Iran)
+  8.39.125.6: blocked (~85ms avg from Iran)
+  8.39.125.93: blocked (~87ms avg from Iran)
+  91.193.58.39: blocked
+  91.193.58.94: blocked (~12ms avg from Iran)
+  91.193.59.137: blocked (~80ms avg from Iran)
